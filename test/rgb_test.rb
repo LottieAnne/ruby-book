@@ -9,6 +9,6 @@ class RgbTest < MiniTest::Test
     end
     
     def test_to_ints
-    assert_equal [0,0,0], to_ints('#000000')
+        assert_equal [0,0,0], to_ints('#000000')
     end
 end
